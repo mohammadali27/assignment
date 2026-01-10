@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
     
-}
-.color-body{
-    background-color: rgb(215, 215, 215,1);
-}
+
+/* .color-body{ */
+    /* background-color: rgb(215, 215, 215,1); */
+
 /* shared style */
 .logo{
     margin-top: 22.5px;
@@ -32,11 +33,11 @@ nav{
     
 }
 .btn {
-    width: 164px;
-    height: 44px;
-    margin-top: 22.5px;
+    margin: 24px ;
+    padding: 10px;
+    font-size: 30px;
     list-style-type: none;
-    border-radius: 8px;
+    border-radius: 12px;
     border: none;
     background-color: #30b868;
     color: white;
@@ -92,6 +93,8 @@ nav{
     line-height: 24px;
 }
 .banner-content .btn3{
+    display: inline-flex;
+    align-items: center;
     margin: 32px;
     padding: 12px 16px;
     border-radius: 4px;
@@ -104,6 +107,63 @@ nav{
     
 }
 .banner-content .btn2{
+    display: inline-flex;
+    align-items: center;
     /* margin: 32px; */
      padding: 12px 16px;
 }
+#about .about-content{
+    width: 83%;
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 120px 44px;
+}
+.about-content .section-heading{
+    max-width: 1360px;
+    text-align: center;
+}
+.section-heading h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+
+
+}
+.section-heading p{
+    font-size: 16px;
+    margin-bottom: 44px;
+    line-height: 44px;
+}
+#about .about-content .about-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    
+    
+}
+.info-card{
+    flex:1;
+    text-align: center;
+}
+.about-info .info-card img{
+  background-color: #F95555;
+  color: #FFFFFF;
+  padding: 16px;  
+  border-radius: 30px;
+}
+.about-info .info-card h4{
+    margin: 24px;
+    font-weight: semi-bold;
+    line-height: auto;
+    font-size: 24px;
+}
+.about-info .info-card p{
+    font-size: 16px;
+    line-height: 24px !important;
+    color: #627382;
+    font-weight: 400;
+}
+
+
