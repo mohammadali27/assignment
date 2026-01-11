@@ -165,5 +165,128 @@ nav{
     color: #627382;
     font-weight: 400;
 }
+.about-info .info-card img{
+  background-color: #F95555;
+  color: #FFFFFF;
+  padding: 16px;  
+  border-radius: 30px;
+}
+.about-info .info-card h4{
+    margin: 24px;
+    font-weight: semi-bold;
+    line-height: auto;
+    font-size: 24px;
+}
+.about-info .info-card p{
+    font-size: 16px;
+    line-height: 24px !important;
+    color: #627382;
+    font-weight: 400;
+}
+.info-card{
+    border: 1px solid #627382;
+    box-shadow: 10px ;
+}
+#lest-banner .banner-content{
+    width: 83%;
+    max-width: 1600px;
+   
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+}
+
+.banner-content .pic-banner img{
+    width: 600px;
+    /* border: 1px solid black; */
+}
+.banner-about{
+    width: 700px;
+    height: 414px;
+    margin: 93px 60px;
+    gap: 40px;
+}
+.banner-about .Solution{
+    /* width: 700px; */
+    height: 38px;
+  color: #30b868;
+}
+.banner-about h1{
+    width: 700px;
+    height: 116px;
+    color: black;
+}
+.banner-about .Personal{
+    color: #627382;
+}
+.point-content{
+    margin-top: 40px;
+}
+.point{
+    
+    display: flex;
+    align-items:left;
+    gap: 16px;
+    display: inline-block;
+
+}
+#ready .ready-content{
+    width: 83%;
+    max-width: 1600px;
+   
+    
+    text-align:center;
+    
+}
+.ready-content{
+    width: 1360px;
+    height: 384px;
+    /* border: 1px solid #F95555; */
+    margin: 2PX 120PX 120PX 120PX;
+    background-color:  #f7f6f2;
+}
+.ready-content .ready-to h2{
+    font-size: 40px;
+    font-weight: bold;
+  padding: 80px 40px 24px;
+}
+.ready-content .ready-to .Join{
+    font-size: 16x;
+    line-height: 24px;
+    color: #627382;
+    padding-bottom: 24px;
+}
+.ready-content .get{
+    font-size: 16px;
+    font-weight: semi-bold;
+    width: 194;
+    height: 52px;
+    display: inline-flex;
+    align-items: center;
+    margin: 32px;
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #30b868;
+    color: white;
+    cursor: pointer;
+    
+}
+#footer .footer-content{
+    width: 1600px;
+    height: 348px;
+    margin: ;
+    /* background-color: #000000; */
+}
+.footer-content {
+    width: 350px;
+    height: 60px;
+    display: flex;
+   margin: ;: 120px 120px 164px;
+}
+
+
+
+
 
 
